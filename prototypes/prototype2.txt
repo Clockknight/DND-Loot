@@ -1,0 +1,38 @@
+gem = [
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+ 0, 0, 0, 0, 0, 0, 0, 0]
+
+gemName
+#Tier 1 gems     0-11   12
+#Tier 2 gems     12-28  17
+#Tier 3 gems     29-44  16
+#Tier 4 gems     45-50  6
+#Tier 5 gems     51-59  9
+#Tier 6 gems     60-67  8
+art = [
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+artName = ['Silver ewer', 'Carved bone statuette', 'Ivory statuette', 'Finely wrought small gold bracelet',
+ 'Cloth of gold vestments', 'Black velvet mask with numerous citrines', 'Silver chalice with lapis lazuli gems',
+ 'Large well-done wool tapestry', 'Brass mug with jade inlays', 'Silver comb with moonstones',
+ 'Silver-plated steel longsword with jet jewel in hilt', 'Carved harp of exotic wood with ivory inlay and zircon gems',
+ 'Solid gold idol', 'Gold dragon comb with red garnet eye', 'Gold and topaz bottle stopper cork',
+ 'Ceremonial electrum dagger with a star ruby in the pommel', 'Eyepatch with mock eye of sapphire and moonstone',
+ 'Fire opal pendant on a fine gold chain', 'Old masterpiece painting', 'Embroidered silk and velvet mantle with numerous moonstones',
+ 'Sapphire pendant on gold chain', 'Embroidered and bejeweled glove', 'Jeweled anklet', 'Gold music box',
+ 'Golden circlet with four aquamarines', 'A string of small pink pearls', 'Jeweled gold crown', 'Jeweled electrum ring',
+ 'Gold and ruby ring', 'Gold cup set with emeralds']
+#Tier 1 goods   0-3     4
+#Tier 2 goods   4-6     3
+#Tier 3 goods   7-8     2
+#Tier 4 goods   9-10    2
+#Tier 5 goods   11-12   2
+#Tier 6 goods   13-15   3
+#Tier 7 goods   16-19   4
+#Tier 8 goods   20-21   2
+#Tier 9 goods   22-24   3
+#Tier 10 goods  25-26   2
+#Tier 11 goods  27-28   2
+#Tier 12 goods  29-30   2
