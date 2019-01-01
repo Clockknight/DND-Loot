@@ -126,16 +126,44 @@ while goodPrompts[6] > 0:
     gem[randint(51,59)] += rollMultipleDice(4,4)*100
     goodPrompts[6] -= 1
 while goodPrompts[7] > 0:
-    gem[randint(60,67)] += rollMultipleDice(4,4)*10
+    gem[randint(60,67)] += rollMultipleDice(2,4)*1000
     goodPrompts[7] -= 1
 
 #Art rolls
 
 
 
-print(coins,"\n",goodPrompts,"\n","\n")
-#===ARCHIVE===#
+print(goodPrompts,"\n","\n")
 
+#Print results:
+#Coins
+if coins[0] > 0:
+    print("You got",coins[0],"copper coins.")
+if coins[1] > 0:
+    print("You got",coins[1],"silver coins.")
+if coins[2] > 0:
+    print("You got",coins[2],"gold coins.")
+if coins[3] > 0:
+    print("You got",coins[3],"platinum coins.")
+
+print("\n")
+
+#Gems
+count = 0
+while count < 68:
+    if gem[count] != 0:
+        print(gem[count],"golds worth of",gemName[count])
+    count += 1
+
+print("\n")
+
+#Art
+
+
+#Total all rewards
+
+
+#===ARCHIVE===#
 #while(count <= 67):
 #    print(count+1, ". ", gemName[count], "\n")
 #    count += 1
