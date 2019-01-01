@@ -130,8 +130,11 @@ while goodPrompts[7] > 0:
     goodPrompts[7] -= 1
 
 #Art rolls
-
-
+while goodPrompts[8] > 0:
+    art[randint(0,3)] +=
+    goodPrompts[8] -= 1
+while goodPrompts[9] > 0:
+    art[randint(4,)]
 
 print(goodPrompts,"\n","\n")
 
@@ -158,9 +161,27 @@ while count < 68:
 print("\n")
 
 #Art
+count = 0
+while count < 30:
+    if art[count] != 0:
+        print(art[count],"golds worth of",artName[count])
+    count += 1
+
+print("\n")
 
 
 #Total all rewards
+goldSum = 0
+
+goldSum += coins[0]/100
+goldSum += coins[1]/10
+goldSum += coins[2]
+goldSum += coins[3]*10
+
+goldSum += (sum(gem)+sum(art))
+print("For a total equivalent to",goldSum,"in gold")
+
+
 
 
 #===ARCHIVE===#
