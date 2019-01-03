@@ -129,14 +129,72 @@ while goodPrompts[7] > 0:
     gem[randint(60,67)] += rollMultipleDice(2,4)*1000
     goodPrompts[7] -= 1
 
-#Art rolls
+#=Art tier rolls
+while goodPrompts[1] > 0:
+    loot = randint(1,100)
+    if loot == 100:
+        goodPrompts[19] += 1
+    elif loot >= 96:
+        goodPrompts[18] += 1
+    elif loot >= 91:
+        goodPrompts[17] += 1
+    elif loot >= 86:
+        goodPrompts[16] += 1
+    elif loot >= 81:
+        goodPrompts[15] += 1
+    elif loot >= 71:
+        goodPrompts[14] += 1
+    elif loot >= 61:
+        goodPrompts[13] += 1
+    elif loot >= 51:
+        goodPrompts[12] += 1
+    elif loot >= 41:
+        goodPrompts[11] += 1
+    elif loot >= 26:
+        goodPrompts[10] += 1
+    elif loot >= 11:
+        goodPrompts[9] += 1
+    else:
+        goodPrompts[8] += 1
+    goodPrompts[1] -= 1
+
+#=Art rolls
 while goodPrompts[8] > 0:
-    art[randint(0,3)] +=
+    art[randint(0,3)] += randint(1,10)*10
     goodPrompts[8] -= 1
 while goodPrompts[9] > 0:
-    art[randint(4,)]
-
-print(goodPrompts,"\n","\n")
+    art[randint(4,6)] += rollMultipleDice(3,6)*10
+    goodPrompts[9] -= 1
+while goodPrompts[10] > 0:
+    art[randint(7,8)] += randint(1,6)*100
+    goodPrompts[10] -= 1
+while goodPrompts[11] > 0:
+    art[randint(9,10)] += randint(1,10)*100
+    goodPrompts[11] -= 1
+while goodPrompts[12] > 0:
+    art[randint(11,12)] += rollMultipleDice(2,6)*100
+    goodPrompts[12] -= 1
+while goodPrompts[13] > 0:
+    art[randint(13,15)] += rollMultipleDice(3,6)*100
+    goodPrompts[13] -= 1
+while goodPrompts[14] > 0:
+    art[randint(16,19)] += rollMultipleDice(4,6)*100
+    goodPrompts[14] -= 1
+while goodPrompts[15] > 0:
+    art[randint(20,21)] += rollMultipleDice(5,6)*100
+    goodPrompts[15] -= 1
+while goodPrompts[16] > 0:
+    art[randint(22,24)] += randint(1,4)*1000
+    goodPrompts[16] -= 1
+while goodPrompts[17] > 0:
+    art[randint(25,26)] += randint(1,6)*1000
+    goodPrompts[17] -= 1
+while goodPrompts[18] > 0:
+    art[randint(27,28)] += rollMultipleDice(2,4)*1000
+    goodPrompts[18] -= 1
+while goodPrompts[19] > 0:
+    art[randint(29,30)] += rollMultipleDice(2,6)*1000
+    goodPrompts[19] -= 1
 
 #Print results:
 #Coins
@@ -168,8 +226,6 @@ while count < 30:
     count += 1
 
 print("\n")
-
-
 #Total all rewards
 goldSum = 0
 
